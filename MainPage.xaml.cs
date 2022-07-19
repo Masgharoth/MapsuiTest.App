@@ -63,14 +63,15 @@ public partial class MainPage : ContentPage
       Type = PinType.Pin,
       Label = "Zero point",
       Address = "Zero point",
-      Scale = 1F,
+      Scale = 0.7F,
       Color = Colors.Blue,
     };
     mapViewElement.Pins.Add(myPin);
-        mapViewElement.MyLocationLayer.UpdateMyLocation(myPin.Position);
 
 
-    }
+
+
+  }
 
 }
 
